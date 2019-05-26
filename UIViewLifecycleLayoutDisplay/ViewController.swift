@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         view.layoutIfNeeded()
         if(self.blueHeight.constant == 25.0)
         {
-            self.blueHeight.constant = self.view.bounds.height - 100.0
+            self.blueHeight.constant = self.view.bounds.height - 120.0
         }
         else
         {
